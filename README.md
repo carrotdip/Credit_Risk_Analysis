@@ -49,5 +49,6 @@ Confusion Matrix:\
 ![eec-cm](https://github.com/carrotdip/Credit_Risk_Analysis/blob/58def611a103adffb76b543d0ca2e5fa32a5b76d/Images/EEC%20-%20confusion%20matrix.png)\
 Imbalanced Classification Report:
 ![eec-icr](https://github.com/carrotdip/Credit_Risk_Analysis/blob/58def611a103adffb76b543d0ca2e5fa32a5b76d/Images/EEC%20-%20imbalanced%20classification%20report.png)\
-For the easy emsemble classifier model, there is a balanced accuracy score of 93%, HRP of 7%, HRS of 91%, LRP of 100%, and LRS of 94%. There is an F1 score of 0.14 and 0.97 for the high risk and low risk categories, respectively.\
+For the easy emsemble classifier model, there is a balanced accuracy score of 93%, HRP of 7%, HRS of 91%, LRP of 100%, and LRS of 94%. There is an F1 score of 0.14 and 0.97 for the high risk and low risk categories, respectively.
 ## Summary
+After evaluating all the accuracy, precision, and F1 scores, I cannot make a recommendation for a certain machine learning model at this time. There was extremely low accuracy, precision, and F1 scores for the high risk predictions, meaning there would be many high risk customers that slip through the cracks. Due to these low values, I cannot confidently recommend a certain model to predict credit risk. The Easy Emsemble Classifier had the "best" numbers with a balanced accuracy score of 93%, however, due to the low high risk precision and F-score of 0.14, it is still not a good model to predict credit risk.
